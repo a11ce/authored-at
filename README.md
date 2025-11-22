@@ -7,3 +7,5 @@ This repository proposes the `Authored-at` [Git trailer](https://git-scm.com/doc
 1. Edit `SSID_LOCATION_MAP` to add your locations.
 2. To add the hook to a single repo, copy it to `.git/hooks/prepare-commit-msg` in that repo.
 3. To use it globally, set `git config --global core.hooksPath path/to/this/folder`
+
+The included hook only works on macOS. To port it, edit getSSID. Please send a PR if you do this.
